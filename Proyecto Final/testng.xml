@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--
+    Proyecto Final QA — Automatización SauceDemo
+    Sistema: https://www.saucedemo.com/
+    Patrón: Page Object Model (POM)
+    Total: 20 casos de prueba
+-->
+<suite name="Proyecto Final - SauceDemo QA Automation" verbose="1">
+
+    <!-- Módulo 1: Login (5 tests) -->
+    <test name="Login Tests">
+        <classes>
+            <class name="tests.TestLogin"/>
+        </classes>
+    </test>
+
+    <!-- Módulo 2: Inventario y Sorting (4 tests) -->
+    <test name="Inventory Tests">
+        <classes>
+            <class name="tests.TestInventory"/>
+        </classes>
+    </test>
+
+    <!-- Módulo 3: Carrito de Compras (4 tests) -->
+    <test name="Cart Tests">
+        <classes>
+            <class name="tests.TestCart"/>
+        </classes>
+    </test>
+
+    <!-- Módulo 4: Checkout (4 tests) -->
+    <test name="Checkout Tests">
+        <classes>
+            <class name="tests.TestCheckout"/>
+        </classes>
+    </test>
+
+    <!-- Módulo 5: Detalle de Producto (3 tests) -->
+    <test name="Product Detail Tests">
+        <classes>
+            <class name="tests.TestProductDetail"/>
+        </classes>
+    </test>
+
+</suite>
